@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 
     font-family: 'Roboto', sans-serif;
 }
@@ -19,6 +19,10 @@ input,
     background-color: white;
     border: solid black 0.5px;
     cursor: pointer;
+}
+
+.togglelight-btn{
+    transform: rotate(45deg);
 }
 
 .across-width{
