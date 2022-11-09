@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.across-width{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+input{
+    background-color: white;
+    border: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    margin-right: 1%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.underline,
+h3{
+    text-decoration: underline;
+}
+
+h4{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.part{
+    margin-left: 5%;
+}
+
+.quote{
+    margin-bottom: 2%;
+}
+
+.grey-example{
+    color: yellow;
+}
+
+.hide-rage{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    margin-bottom: 1%;
+    margin-right: 1%;
+
+    cursor: pointer;
+}
+
+.personal-rage{
+    margin-left: 10%;
+}
+
+details{
+    margin-bottom: 2%;
+}
+
+summary{
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+summary:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.quote{
+    width: 100%;
+    text-align: center;
+}
+
+.questions{
+    margin-bottom: 5%;
+}
